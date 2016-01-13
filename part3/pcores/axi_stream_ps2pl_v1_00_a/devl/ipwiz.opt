@@ -1,0 +1,10 @@
+-batch 
+-create axi_stream_ps2pl 
+-ver 1.00.a 
+-dir C:\workspace\es6051\FINAL3\EDK\ 
+-lang verilog 
+-bus axi4stream ms 
+-xps 
+-totalin 128
+-totalout 128
+-driver 

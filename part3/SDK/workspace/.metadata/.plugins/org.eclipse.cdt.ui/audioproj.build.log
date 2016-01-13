@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project audioproj ****
+
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../audioproj_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o"src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:141:2: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+../src/helloworld.c:141:31: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+../src/helloworld.c: At top level:
+../src/helloworld.c:92:22: warning: 'timer_counter_l' defined but not used [-Wunused-variable]
+../src/helloworld.c:93:22: warning: 'timer_counter_h' defined but not used [-Wunused-variable]
+../src/helloworld.c:94:22: warning: 'timer_ctrl' defined but not used [-Wunused-variable]
+Finished building: ../src/helloworld.c
+ 
+Building target: audioproj.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../audioproj_bsp/ps7_cortexa9_0/lib -o"audioproj.elf"  ./src/audio.o ./src/helloworld.o ./src/oled.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: audioproj.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size audioproj.elf  |tee "audioproj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76316	   2216	  31048	 109580	  1ac0c	audioproj.elf
+Finished building: audioproj.elf.size
+ 

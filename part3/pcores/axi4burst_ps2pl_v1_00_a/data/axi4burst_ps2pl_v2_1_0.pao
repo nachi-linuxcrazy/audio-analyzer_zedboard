@@ -1,0 +1,14 @@
+##############################################################################
+## Filename:          C:/workspace/es6051/AudioProjPhase4/EDKtemplateAxi4Burst/pcores/axi4burst_ps2pl_v1_00_a/data/axi4burst_ps2pl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Nov 04 16:32:58 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_slave_burst_v1_00_a  all 
+lib axi4burst_ps2pl_v1_00_a fftv8_fixp16_scaled verilog
+lib axi4burst_ps2pl_v1_00_a fftv8_wrapper verilog
+lib axi4burst_ps2pl_v1_00_a magnitude_wrapper verilog
+lib axi4burst_ps2pl_v1_00_a signalproc_top verilog
+lib axi4burst_ps2pl_v1_00_a user_logic verilog
+lib axi4burst_ps2pl_v1_00_a axi4burst_ps2pl vhdl

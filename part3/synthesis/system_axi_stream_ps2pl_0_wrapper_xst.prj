@@ -1,0 +1,5 @@
+verilog axi_stream_ps2pl_v1_00_a F:\Embedded-System-Design\Project\part3\pcores\axi_stream_ps2pl_v1_00_a/hdl/verilog/axi_stream_ps2pl.v
+verilog axi_stream_ps2pl_v1_00_a F:\Embedded-System-Design\Project\part3\pcores\axi_stream_ps2pl_v1_00_a/hdl/verilog/signalproc_top.v
+verilog axi_stream_ps2pl_v1_00_a F:\Embedded-System-Design\Project\part3\pcores\axi_stream_ps2pl_v1_00_a/hdl/verilog/fftv8_wrapper.v
+verilog axi_stream_ps2pl_v1_00_a F:\Embedded-System-Design\Project\part3\pcores\axi_stream_ps2pl_v1_00_a/hdl/verilog/fftv8_fixp16_scaled.v
+verilog work ../hdl/system_axi_stream_ps2pl_0_wrapper.v
